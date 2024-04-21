@@ -8,9 +8,7 @@
 <div class="row my-5">
 
     <div class="col-12">
-        @if (Session::has('success'))
-        <p class="alert alert-success p-2">{{Session::get('success')}}</p>
-        @endif
+
         <div class="card">
             <div class="card-title bg-light border-b-1 d-flex justify-content-between p-2 align-items-center">
                 <h4>Permissions</h4>
